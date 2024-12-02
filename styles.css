@@ -1,0 +1,69 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #353535;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.header .logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #a250ff;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 15px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.link i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.link:hover {
+    background-color: #7439b8;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 70%;
+    }
+}
